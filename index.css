@@ -1,0 +1,88 @@
+body{
+  background-color: antiquewhite;
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin:0px;
+  padding:0px;
+}
+
+.backgroundbanner{
+  background-image: url(./Images/backgroundimage1.jpg);
+  background-size:cover;
+  background-position: center;
+  width:1900px;
+  height:800px;
+
+}
+
+.nav{
+  width:700px;
+  color:black;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize; 
+  display:flex;
+  padding:14px;
+  margin:12px;
+  flex-direction: row;
+  text-align: right;
+  float:right;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items:flex-end;
+}
+
+.nav li{
+font-size: 18px;
+font-weight: 600;
+display:flex;
+flex-direction: column-reverse;
+justify-content: space-around;
+align-content: space-around;
+padding:12px;
+list-style-type: none;
+}
+
+.bannerpara{
+  color:burlywood;
+  width:1600px;
+  height:700px;
+font-size:20px;
+font-weight: 700;
+line-height: 15px;
+display: flex;
+flex-direction: column;
+align-content: space-around;
+justify-content: space-around;
+padding:15px;
+align-items: center;
+}
+
+.bannerpara li{
+  color:burlywood;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 17px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  list-style-type: none;
+  padding:15px;
+  margin:12px;
+}
+
+.nav li:active{
+  background-color: wheat;
+  cursor:pointer;
+  color:white;
+}
+
+.nav li:hover{
+  background-color: bisque;
+  color:black;
+  cursor:pointer;
+}
+
